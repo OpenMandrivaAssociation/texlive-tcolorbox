@@ -21,16 +21,8 @@ Requires(post):	texlive-kpathsea
 %description
 TeXLive tcolorbox package.
 
-%pre
-    %{_sbindir}/texlive.post
-
 %post
     %{_sbindir}/texlive.post
-
-%preun
-    if [ $1 -eq 0 ]; then
-	%{_sbindir}/texlive.post
-    fi
 
 %postun
     if [ $1 -eq 0 ]; then
@@ -47,7 +39,6 @@ TeXLive tcolorbox package.
 %doc %{_texmfdistdir}/doc/latex/tcolorbox/tcolorbox-example.pdf
 %doc %{_texmfdistdir}/doc/latex/tcolorbox/tcolorbox-example.tex
 %doc %{_texmfdistdir}/doc/latex/tcolorbox/tcolorbox.pdf
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -58,5 +49,3 @@ TeXLive tcolorbox package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
