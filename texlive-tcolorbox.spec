@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-tcolorbox
 Version:	20111217
-Release:	1
+Release:	2
 Summary:	TeXLive tcolorbox package
 Group:		Publishing
 URL:		http://tug.org/texlive
