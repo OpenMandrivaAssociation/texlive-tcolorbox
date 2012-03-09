@@ -7,7 +7,7 @@
 Name:		texlive-tcolorbox
 Epoch:		1
 Version:	1.10
-Release:	1
+Release:	2
 Summary:	Coloured boxes, for LaTeX examples and theorems, etc
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/tcolorbox
