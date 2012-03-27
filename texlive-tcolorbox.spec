@@ -1,13 +1,13 @@
-# revision 25548
+# revision 25666
 # category Package
 # catalog-ctan /macros/latex/contrib/tcolorbox
-# catalog-date 2012-03-01 20:08:55 +0100
+# catalog-date 2012-03-16 14:54:23 +0100
 # catalog-license lppl1.3
-# catalog-version 1.10
+# catalog-version 1.20
 Name:		texlive-tcolorbox
 Epoch:		1
-Version:	1.10
-Release:	2
+Version:	1.20
+Release:	1
 Summary:	Coloured boxes, for LaTeX examples and theorems, etc
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/tcolorbox
