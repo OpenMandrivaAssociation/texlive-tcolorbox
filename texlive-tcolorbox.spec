@@ -1,12 +1,12 @@
-# revision 25666
+# revision 26072
 # category Package
 # catalog-ctan /macros/latex/contrib/tcolorbox
-# catalog-date 2012-03-16 14:54:23 +0100
+# catalog-date 2012-04-20 13:22:20 +0200
 # catalog-license lppl1.3
-# catalog-version 1.20
+# catalog-version 1.30
 Name:		texlive-tcolorbox
 Epoch:		1
-Version:	1.20
+Version:	1.30
 Release:	1
 Summary:	Coloured boxes, for LaTeX examples and theorems, etc
 Group:		Publishing
@@ -41,6 +41,7 @@ parts.
 %files
 %{_texmfdistdir}/tex/latex/tcolorbox/tcbdocumentation.code.tex
 %{_texmfdistdir}/tex/latex/tcolorbox/tcblistings.code.tex
+%{_texmfdistdir}/tex/latex/tcolorbox/tcbskins.code.tex
 %{_texmfdistdir}/tex/latex/tcolorbox/tcbtheorems.code.tex
 %{_texmfdistdir}/tex/latex/tcolorbox/tcolorbox.sty
 %doc %{_texmfdistdir}/doc/latex/tcolorbox/CHANGES
