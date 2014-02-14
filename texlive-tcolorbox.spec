@@ -1,13 +1,13 @@
-# revision 31674
+# revision 32886
 # category Package
 # catalog-ctan /macros/latex/contrib/tcolorbox
-# catalog-date 2013-09-16 15:30:54 +0200
+# catalog-date 2014-02-06 15:51:39 +0100
 # catalog-license lppl1.3
-# catalog-version 2.51
+# catalog-version 2.70
 Name:		texlive-tcolorbox
 Epoch:		1
-Version:	2.51
-Release:	5
+Version:	2.70
+Release:	1
 Summary:	Coloured boxes, for LaTeX examples and theorems, etc
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/tcolorbox
@@ -48,6 +48,7 @@ parts.
 %{_texmfdistdir}/tex/latex/tcolorbox/tcblistingsutf8.code.tex
 %{_texmfdistdir}/tex/latex/tcolorbox/tcbminted.code.tex
 %{_texmfdistdir}/tex/latex/tcolorbox/tcbskins.code.tex
+%{_texmfdistdir}/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
 %{_texmfdistdir}/tex/latex/tcolorbox/tcbtheorems.code.tex
 %{_texmfdistdir}/tex/latex/tcolorbox/tcolorbox.sty
 %doc %{_texmfdistdir}/doc/latex/tcolorbox/Basilica_5.png
