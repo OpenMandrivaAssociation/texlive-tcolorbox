@@ -1,6 +1,6 @@
 Name:		texlive-tcolorbox
 Epoch:		1
-Version:	72438
+Version:	72624
 Release:	1
 Summary:	Coloured boxes, for LaTeX examples and theorems, etc
 Group:		Publishing
